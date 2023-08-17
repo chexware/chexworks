@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dirty-white-icon {
+    color: #bababb;
+}
+.dirty-white-icon:hover {
+    color: #ffffff;
+}
