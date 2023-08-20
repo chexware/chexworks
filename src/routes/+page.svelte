@@ -19,7 +19,9 @@
   <img class="absolute h-full w-full object-cover -z-10 max-lg:visible lg:hidden" src="{photo_cover_url}" alt="cover-image"/>
   <div class="grid grid-cols-6 grid-rows-6 gap-0 w-full h-full content-center cursor-dedgy max-lg:pt-10" >
     <div class="row-span-1 col-span-6 max-lg:hidden lg:visible"></div>
-    <div class="max-lg:row-span-1 max-lg:order-4 max-lg:text-center lg:col-start-2 lg:col-span-2 max-lg:col-span-6 "><a href="/contact" class="lg:text-8xl max-lg:text-6xl hover:text-white">Contact</a></div>
+    <div class="max-lg:row-span-1 max-lg:order-4 max-lg:text-center lg:col-start-2 lg:col-span-2 max-lg:col-span-6 ">
+      <a href="/contact" class="lg:text-8xl max-lg:text-6xl hover:text-white">Contact</a>
+    </div>
     <div class="max-lg:row-span-1 max-lg:order-2 max-lg:text-center lg:col-start-5 lg:col-span-2 lg:pt-7 max-lg:col-span-6  max-lg:pt-0">
       <button type="button" class="lg:text-8xl max-lg:text-6xl hover:text-white items-center gap-2 border-none" data-hs-overlay="#hs-gallery-modal">Art</button>
       <Gallery />
