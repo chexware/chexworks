@@ -22,8 +22,11 @@ export default {
         'gray-dirty': '#303030',
       },
       fontFamily: {
-        'alerta-stencil': ['Allerta Stencil', 'sans-serif']
+        'alerta-stencil': ['Allerta Stencil', 'sans-serif'],
       },
+      cursor: {
+        'dedgy': 'url(%sveltekit.assets%/cursor/chex-cursor-dedgy.gif), pointer',
+      }
     }
   },
   plugins: [

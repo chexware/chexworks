@@ -37,7 +37,7 @@
                         <div class="col-span-1 col-start-5 dirty-white-icon"><a href ="https://vimeo.com/chexvisual"><Icon icon="mdi:vimeo" /></a></div>
                         <div class="col-span-1 dirty-white-icon"><a href ="https://github.com/chexware"><Icon icon="mdi:github" /></a></div>
                         <div class="col-span-1 dirty-white-icon"><a href ="https://instagram.com/chexvisual"><Icon icon="mdi:instagram" /></a></div>
-                        <div class="col-span-1 dirty-white-icon"><a href ="https://res.cloudinary.com/hoppueffz/image/upload/v1644882994/Art_Resume_i0ygho.pdf"><Icon icon="tabler:file-cv" /></a></div>
+                        <div class="col-span-1 dirty-white-icon"><a href ="https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/art-resume"><Icon icon="tabler:file-cv" /></a></div>
                     </div>
                 </div>
                 

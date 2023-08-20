@@ -5,7 +5,7 @@
 
     let carousel; // for calling methods of the carousel instance
 
-    let headings = [1,2,3];
+    let projects = [["VJ", "https://vimeo.com/showcase/6789339", "https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/gallery-image-2"],["OTOMATT", "https://vimeo.com/showcase/5857893", "https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/galley-image-1"]];
     
     const handleNextClick = () => {
         carousel.goToNext()
@@ -37,13 +37,17 @@
                         <div slot="prev" on:click={handlePreviousClick} class="custom-arrow custom-arrow-prev flex items-center">
                             <Icon icon="ooui:previous-ltr" />
                         </div>
-                        {#each headings as heading}
-                            <div class="max-h-full min-h-full h-[92.5vh] text-center bg-green"><a href="/">{heading}</a></div>
+                        {#each projects as project}
+                            <div class="lg:max-h-full lg:h-[92.5vh] md:h-[91.25vh] max-md:h-[90vh] text-center bg-cover grid grid-rows-5" style="background-image: url({project[2]});">
+                                <div class="row-start-3 mt-3">
+                                    <a class="text-dirty-white hover:text-white text-8xl" href="{project[1]}">{project[0]}</a>
+                                </div>
+                            </div>
                         {/each}
                         <div slot="next" on:click={handleNextClick} class="custom-arrow custom-arrow-next flex items-center">
                             <Icon icon="ooui:next-ltr" />
                         </div>
-                </Carousel>
+                    </Carousel>
                 {/if}
             </div>
         </div>

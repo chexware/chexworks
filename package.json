@@ -32,6 +32,7 @@
   "dependencies": {
     "@cloudinary/url-gen": "^1.11.1",
     "@iconify/svelte": "^3.1.4",
+    "@mailchain/sdk": "^0.24.0",
     "@preline/overlay": "^1.4.0",
     "cloudinary": "^1.40.0",
     "preline": "^1.9.0",
