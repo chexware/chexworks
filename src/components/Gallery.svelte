@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Icon from '@iconify/svelte';
     import Carousel from 'svelte-carousel';
     import { browser } from '$app/environment';
@@ -15,7 +15,7 @@
     }
 </script>
 
-<div id="hs-gallery-modal" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
+<div id="hs-gallery-modal"  class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
     <div class="hs-overlay-open:opacity-100 hs-overlay-open:mx-0 hs-overlay-open:duration-500 opacity-0 mx-10 transition-all max-w-full w-full min-h-full">
         <div class="flex flex-col bg-black border-none dark:bg-black">
             <div class="flex justify-end items-center border-none">
@@ -34,17 +34,17 @@
                         let:handleNextClick
                         let:handlePreviousClick
                     >
-                        <div slot="prev" on:click={handlePreviousClick} class="custom-arrow custom-arrow-prev flex items-center">
+                        <div slot="prev" role="presentation" on:click={handlePreviousClick} on:keydown={handlePreviousClick} class="custom-arrow custom-arrow-prev flex items-center dirty-white-icon">
                             <Icon icon="ooui:previous-ltr" />
                         </div>
                         {#each projects as project}
                             <div class="lg:max-h-full lg:h-[92.5vh] md:h-[91.25vh] max-md:h-[90vh] text-center bg-cover grid grid-rows-5" style="background-image: url({project[2]});">
-                                <div class="row-start-3 mt-3">
+                                <div class="row-start-3 mt-3 hover:backdrop-blur-sm">
                                     <a class="text-dirty-white hover:text-white text-8xl" href="{project[1]}">{project[0]}</a>
                                 </div>
                             </div>
                         {/each}
-                        <div slot="next" on:click={handleNextClick} class="custom-arrow custom-arrow-next flex items-center">
+                        <div slot="next" role="presentation" on:click={handleNextClick} on:keydown={handlePreviousClick} class="custom-arrow custom-arrow-next flex items-center dirty-white-icon">
                             <Icon icon="ooui:next-ltr" />
                         </div>
                     </Carousel>

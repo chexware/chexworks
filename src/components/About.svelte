@@ -4,9 +4,9 @@
     let year = now.getFullYear();
 </script>
 
-<div id="hs-about-modal" class="hs-overlay hidden w-full h-full fixed mt-20 top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
+<div id="hs-about-modal" class="hs-overlay hidden w-full h-full fixed mt-20 top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto backdrop-blur-sm">
     <div class="hs-overlay-open:opacity-100 hs-overlay-open:duration-500 opacity-0 transition-all sm:max-w-sm sm:w-full m-20 sm:mx-auto">
-        <div class="flex flex-col bg-black border-none shadow-sm dark:bg-black dark:shadow-black/[.7] p-2">
+        <div class="flex flex-col bg-gray-dark border-none shadow-sm dark:bg-gray-dark dark:shadow-gray-dark/[.7] p-2">
             <div class="flex justify-end items-center border-none bg">
                 <button type="button" class="hs-dropdown-toggle flex justify-center items-center h-8 w-8 outline-none offset-none outline-offset-0 transition-all text-sm" data-hs-overlay="#hs-about-modal">
                     <span class="sr-only">Close</span>
