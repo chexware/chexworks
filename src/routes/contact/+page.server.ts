@@ -19,7 +19,7 @@ export const actions: Actions = {
         const result = await response.json();
         if (result.success) {
             console.log("Form Submission Success");
-            throw redirect(307, '/');
+            throw redirect(307, 'https://web3forms.com/success');
         }
         else {
             console.log("Failed Form Submission");

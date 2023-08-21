@@ -24,6 +24,10 @@ export default {
       fontFamily: {
         'alerta-stencil': ['Allerta Stencil', 'sans-serif'],
       },
+      cursor: {
+        'structure': "url('/cursor/arrow-struct.cur'), pointer",
+        'meta': "url('/cursor/meta-arrow.cur'), pointer",
+      }
     }
   },
   plugins: [

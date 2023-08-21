@@ -40,7 +40,7 @@
                         {#each projects as project}
                             <div class="lg:max-h-full lg:h-[92.5vh] md:h-[91.25vh] max-md:h-[90vh] text-center bg-cover grid grid-rows-5" style="background-image: url({project[2]});">
                                 <div class="row-start-3 mt-3 hover:backdrop-blur-sm">
-                                    <a class="text-dirty-white hover:text-white text-8xl" href="{project[1]}">{project[0]}</a>
+                                    <a class="text-dirty-white hover:text-white text-8xl hover:cursor-meta" href="{project[1]}">{project[0]}</a>
                                 </div>
                             </div>
                         {/each}
