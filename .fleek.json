@@ -1,0 +1,11 @@
+{
+    "build": {
+      "image": "node:lts",
+      "command": "npm install pnpm && pnpm install && pnpm run build && echo $SOME_ENV",
+      "publicDir": "build",
+      "baseDir": "/",
+      "environment": {
+        "SOME_ENV": "Build finished!"
+      }
+    }
+}
