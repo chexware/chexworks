@@ -5,7 +5,7 @@
 
     let carousel; // for calling methods of the carousel instance
 
-    let projects = [["VJ", "https://vimeo.com/showcase/6789339", "https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/gallery-image-2"],["OTOMATT", "https://vimeo.com/showcase/5857893", "https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/galley-image-1"]];
+    let projects = [["VJ", "https://vimeo.com/showcase/6789339", "https://storage.fleek-internal.com/chexware-team-bucket/projects-covers/vj-cover.jpg"],["OTOMATT", "https://vimeo.com/showcase/5857893", "https://storage.fleek-internal.com/chexware-team-bucket/projects-covers/otomatt-cover.jpg"]];
     
     const handleNextClick = () => {
         carousel.goToNext()

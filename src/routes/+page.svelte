@@ -3,7 +3,7 @@
  import Gallery from "../components/Gallery.svelte";
 
  let video_cover_url="https://res.cloudinary.com/dyvcgyxhg/video/upload/f_auto:video,q_auto/v1/chexware/cover-video";
- let photo_cover_url="https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/cover-image";
+ let photo_cover_url="https://storage.fleek-internal.com/chexware-team-bucket/image-cover.png";
 
  let showDedgy = () => {
         if (window.matchMedia("(min-width: 640px)").matches){

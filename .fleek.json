@@ -1,6 +1,6 @@
 {
     "build": {
-      "image": "node:19-alpine",
+      "image": "node:18-alpine",
       "command": "npm install && npm run build && echo $SOME_ENV",
       "publicDir": "build",
       "baseDir": "/",

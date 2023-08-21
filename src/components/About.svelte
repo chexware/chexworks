@@ -34,10 +34,10 @@
                         and reflect on our relationship with it.
                     </p>
                     <div class="grid grid-cols-12 text-xl mt-10 text-white-dirty">
-                        <div class="col-span-1 col-start-5 dirty-white-icon"><a href ="https://vimeo.com/chexvisual"><Icon icon="mdi:vimeo" /></a></div>
-                        <div class="col-span-1 dirty-white-icon"><a href ="https://github.com/chexware"><Icon icon="mdi:github" /></a></div>
-                        <div class="col-span-1 dirty-white-icon"><a href ="https://instagram.com/chexvisual"><Icon icon="mdi:instagram" /></a></div>
-                        <div class="col-span-1 dirty-white-icon"><a href ="https://res.cloudinary.com/dyvcgyxhg/image/upload/f_auto,q_auto/v1/chexware/art-resume"><Icon icon="tabler:file-cv" /></a></div>
+                        <div class="col-span-1 col-start-5 dirty-white-icon"><a href ="https://vimeo.com/chexvisual" class="hover:cursor-meta"><Icon icon="mdi:vimeo" /></a></div>
+                        <div class="col-span-1 dirty-white-icon"><a href ="https://github.com/chexware" class="hover:cursor-meta"><Icon icon="mdi:github" /></a></div>
+                        <div class="col-span-1 dirty-white-icon"><a href ="https://instagram.com/chexvisual" class="hover:cursor-meta"><Icon icon="mdi:instagram" /></a></div>
+                        <div class="col-span-1 dirty-white-icon"><a href ="https://storage.fleek-internal.com/chexware-team-bucket/art-resume.pdf" class="hover:cursor-meta"><Icon icon="tabler:file-cv" /></a></div>
                     </div>
                 </div>
                 
