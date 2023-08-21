@@ -1,7 +1,7 @@
 {
     "build": {
-      "image": "node:lts",
-      "command": "npm install pnpm && pnpm install && pnpm run build && echo $SOME_ENV",
+      "image": "node:19-alpine",
+      "command": "npm install && npm run build && echo $SOME_ENV",
       "publicDir": "build",
       "baseDir": "/",
       "environment": {
