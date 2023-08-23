@@ -1,4 +1,4 @@
-export const prerender = false;
+//export const prerender = false;
 import type { Actions } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 //import { WEB3_FORMS_ACCESS_KEY } from '$env/static/private';
