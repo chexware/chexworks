@@ -1,5 +1,5 @@
 <script>
-    import Menu from "../../components/Menu.svelte";
+    import Menu from "$lib/Menu.svelte";
 </script>
 
 <div>

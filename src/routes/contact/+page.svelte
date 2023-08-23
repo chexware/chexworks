@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Menu from "../../components/Menu.svelte";
+    import Menu from "$lib/Menu.svelte";
     import { PUBLIC_WEB3_FORMS_ACCESS_KEY } from '$env/static/public';
 </script>
 
