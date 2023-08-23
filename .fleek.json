@@ -1,6 +1,6 @@
 {
     "build": {
-      "image": "node:lts-alpine",
+      "image": "fleek/svelte",
       "command": "npm install -g pnpm && pnpm install && pnpm run build && echo $SOME_ENV",
       "publicDir": "build/index.js",
       "baseDir": "/",
