@@ -2,8 +2,8 @@
  import About from "../components/About.svelte";
  import Gallery from "../components/Gallery.svelte";
 
- let video_cover_url="https://res.cloudinary.com/dyvcgyxhg/video/upload/f_auto:video,q_auto/v1/chexware/cover-video";
- let photo_cover_url="https://storage.fleek-internal.com/chexware-team-bucket/image-cover.png";
+ let video_cover_url="https://crimson-sheer-cat-143.mypinata.cloud/ipfs/QmWnHgNLXSzwxB6yd4pwRRoLbgdUaivnZR8ABajCUMmCYG";
+ let photo_cover_url="https://crimson-sheer-cat-143.mypinata.cloud/ipfs/QmQARs3byAEUG36uyARTVKycVsNq6FkSoYL26Teain66Ec";
 
  let showDedgy = () => {
         if (window.matchMedia("(min-width: 640px)").matches){
