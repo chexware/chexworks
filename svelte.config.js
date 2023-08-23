@@ -1,19 +1,13 @@
 //import adapter from '@sveltejs/adapter-auto';
 //import adapter from '@sveltejs/adapter-netlify';
-import adapter from '@sveltejs/adapter-node';
-//import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-static';
 
 import { vitePreprocess } from '@sveltejs/kit/vite';
  
 export default {
   preprocess: vitePreprocess(),
   kit: {
-     // Node Server Adapter 
-     adapter: adapter({
-      out: 'build-node',
-      precompress: false
-    })
-    /* 
     //SSG Adapter 
     adapter: adapter({
       // default options are shown. On some platforms
@@ -23,6 +17,12 @@ export default {
       fallback: undefined,
       precompress: false,
       strict: false
+    })
+    /* 
+     // Node Server Adapter 
+     adapter: adapter({
+      out: 'build-node',
+      precompress: false
     })
 
     // Netlify Adapter
