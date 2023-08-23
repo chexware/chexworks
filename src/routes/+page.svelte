@@ -1,6 +1,6 @@
 <script lang="ts"> 
- import About from "../components/About.svelte";
- import Gallery from "../components/Gallery.svelte";
+ import About from "$lib/About.svelte";
+ import Gallery from "$lib/Gallery.svelte";
 
  let video_cover_url="https://crimson-sheer-cat-143.mypinata.cloud/ipfs/QmWnHgNLXSzwxB6yd4pwRRoLbgdUaivnZR8ABajCUMmCYG";
  let photo_cover_url="https://crimson-sheer-cat-143.mypinata.cloud/ipfs/QmQARs3byAEUG36uyARTVKycVsNq6FkSoYL26Teain66Ec";
