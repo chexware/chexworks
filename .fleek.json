@@ -1,6 +1,6 @@
 {
     "build": {
-      "image": "node:lts-stretch",
+      "image": "fleek/svelte:node-18",
       "command": "npm install -g pnpm && pnpm install && pnpm run build && echo $SOME_ENV",
       "publicDir": "build-node",
       "baseDir": "/",
