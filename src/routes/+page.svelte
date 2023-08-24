@@ -54,7 +54,7 @@ let hideDedgy = () => {
     <div class="row-span-1 col-span-6 max-lg:hidden lg:visible"></div>
     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
     <div class="dedgy max-lg:row-span-1 max-lg:order-4 max-lg:text-center lg:col-start-2 lg:col-span-2 max-lg:col-span-6" role="presentation">
-      <a href="/contact" class="lg:text-8xl max-lg:text-6xl hover:text-white hover:cursor-meta" on:mouseover={showDedgy} on:mouseout={hideDedgy} on:mousemove={moveDedgy} >Contact</a>
+      <a href="https://app.deform.cc/form/6c566dde-97a0-428b-a66e-ef8862d2de13" class="lg:text-8xl max-lg:text-6xl hover:text-white hover:cursor-meta" on:mouseover={showDedgy} on:mouseout={hideDedgy} on:mousemove={moveDedgy} >Contact</a>
     </div>
      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
     <div  class="max-lg:row-span-1 max-lg:order-2 max-lg:text-center lg:col-start-5 lg:col-span-2 lg:pt-7 max-lg:col-span-6  max-lg:pt-0" on:mouseover={showDedgy} on:mouseout={hideDedgy} on:mousemove={moveDedgy} role="presentation">
