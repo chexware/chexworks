@@ -22,7 +22,7 @@
     <div class="hs-overlay-open:opacity-100 hs-overlay-open:mx-0 hs-overlay-open:duration-500 opacity-0 mx-10 transition-all max-w-full w-full min-h-full">
         <div class="flex flex-col bg-black border-none dark:bg-black">
             <div class="flex justify-end items-center border-none">
-                <button type="button" class="hs-dropdown-toggle flex justify-center items-center h-8 w-8 outline-none offset-none outline-offset-0 transition-all text-sm" data-hs-overlay="#hs-gallery-modal">
+                <button type="button" class="hs-dropdown-toggle flex justify-center items-center h-8 w-8 outline-none offset-none outline-offset-0 transition-all text-sm  hover:cursor-meta" data-hs-overlay="#hs-gallery-modal">
                     <span class="sr-only">Close</span>
                     <div class="dirty-white-icon">
                         <Icon icon="ph:x" />
