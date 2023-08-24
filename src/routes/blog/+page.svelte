@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <button type="button" class="border-none text-sm text-white-dirty m-5" data-hs-overlay="#hs-overlay-menu"> 
+    <button type="button" class="border-none text-sm hover:text-white-dirty m-5 hover:cursor-meta" data-hs-overlay="#hs-overlay-menu"> 
         MENU
     </button>
     <Menu page="blog"/>
