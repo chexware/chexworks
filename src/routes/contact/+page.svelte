@@ -1,6 +1,7 @@
 <script lang="ts">
     import Menu from "$lib/Menu.svelte";
     import { PUBLIC_WEB3_FORMS_ACCESS_KEY } from '$env/static/public';
+
 </script>
 
 <div>
@@ -36,7 +37,6 @@
                 </label>
             </div>
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-            <input type="hidden" name="redirect" value="https://web3forms.com/success">
             <input type="submit" class="w-full bg-green hover:bg-green-light text-white-dirty text-sm py-4 my-2 hover:cursor-meta" value="SEND MESSAGE">
         </form>
     </div>
