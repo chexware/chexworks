@@ -3,7 +3,6 @@ import type { Actions } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 //import { WEB3_FORMS_ACCESS_KEY } from '$env/static/private';
 
-
 export const actions: Actions = { 
     default: async({request}) => {
         let formData = await request.formData();
@@ -20,6 +19,7 @@ export const actions: Actions = {
         const result = await response.json();
         if (result.success) {
             console.log("Form Submission Success");
+            throw redirect(307, 'https://web3forms.com/success');
         }
         else {
             console.log("Failed Form Submission");
