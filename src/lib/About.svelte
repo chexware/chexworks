@@ -8,7 +8,7 @@
     <div class="hs-overlay-open:opacity-100 hs-overlay-open:duration-500 opacity-0 transition-all sm:max-w-sm sm:w-full m-20 sm:mx-auto">
         <div class="flex flex-col bg-gray-dark border-none shadow-sm dark:bg-gray-dark dark:shadow-gray-dark/[.7] p-2">
             <div class="flex justify-end items-center border-none bg">
-                <button type="button" class="hs-dropdown-toggle flex justify-center items-center h-8 w-8 outline-none offset-none outline-offset-0 transition-all text-sm" data-hs-overlay="#hs-about-modal">
+                <button type="button" class="hs-dropdown-toggle flex justify-center items-center h-8 w-8 outline-none offset-none outline-offset-0 transition-all text-sm hover:cursor-meta" data-hs-overlay="#hs-about-modal">
                     <span class="sr-only">Close</span>
                     <div class="dirty-white-icon">
                         <Icon icon="ph:x" />
