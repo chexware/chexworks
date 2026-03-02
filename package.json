@@ -18,6 +18,7 @@
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^2.53.4",
     "autoprefixer": "^10.4.27",
+    "cookie": "^1.1.1",
     "postcss": "^8.5.6",
     "prettier": "^3.8.1",
     "prettier-plugin-svelte": "^3.5.0",
